@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+    color: lightblue;
+    font-family: georgia;
+    font-size: 80px;
+}
+
+/*styling each section div*/
+section { 
+    padding: 40px;
+    width: 400px;
+    float: left;
+    margin: 10px;
+    min-height: 300px;
+}
+
+#section1 {
+	background-color: lightgrey;
+	border-radius: 8px;
+	margin-left: auto;
+}
+
+#section2 {
+	background-color: lightgrey;
+	border-radius: 8px;
+}
+
+#section3 {
+background-color: lightgrey;
+border-radius: 8px;
+}
+
+#section4 {
+	background-color: lightgrey;
+	border-radius: 8px;	
+}
+
+/*styling image*/
+img{
+	border-radius: 8px;
+	height: 300px;
+	width: 400px;
+	margin-left: auto;
+}
+/* Nav bar styling*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightgrey;
+}
