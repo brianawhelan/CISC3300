@@ -1,0 +1,25 @@
+h1{
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 60px;
+		color: #DB7093;
+		letter-spacing: 3px;
+}
+
+h2{
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 25px;
+}
+body{
+	background-color: #F0FFF0;
+}
+
+img{
+	height: 400px;
+	float: center;
+}
+
+p{
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 25px;
+	float: center;
+}
