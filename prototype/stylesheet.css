@@ -1,0 +1,36 @@
+.container_12 {
+    background:#4682B4 ;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 250px;
+    height: 100%;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 4px 4px 4px #aaa;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	}
+
+.grid4{
+	padding-right: 10px;
+}
+
+body{
+background-color: #4682B4;
+}
+
+/* code from: https://www.kirupa.com/html5/the_falling_snow_effect.htm*/
+.snowflake {
+  position: fixed;
+  background-color: #FFFFFF;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
