@@ -1,0 +1,93 @@
+
+ * {
+  box-sizing: border-box;
+}
+
+/* Nav* & body*/
+body {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  background-color: #4682B4;
+
+}
+h1{
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 4px 4px 4px #aaa;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  }
+
+
+nav {
+  cursor: pointer;
+  margin: 25px;
+  text-align: center;
+}
+nav a {
+  padding: 15px;
+}
+
+a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* w3 schools The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Responsive w3 schools*/
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* code from: https://www.kirupa.com/html5/the_falling_snow_effect.htm*/
+.snowflake {
+  position: fixed;
+  background-color: #FFFFFF;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
